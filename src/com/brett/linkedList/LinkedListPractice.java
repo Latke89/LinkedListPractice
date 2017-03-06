@@ -37,6 +37,25 @@ public class LinkedListPractice {
 //		System.out.println(number);
 		ints.forEach(System.out::print);
 
+
+		//Implementation of LinkedList taken from Crunchify, copied with minor changes for educational purposes
+
+		LinkedListImplementation myList = new LinkedListImplementation();
+
+		myList.add("1");
+		myList.add("2");
+		myList.add("3");
+		myList.add("4");
+		myList.add("5");
+
+		System.out.println(myList);
+		System.out.println(myList.size());
+		System.out.println(myList.get(3));
+		System.out.println(myList.remove(2));
+		System.out.println(myList.get(3));
+		System.out.println(myList.size());
+		System.out.println(myList);
+
 	}
 
 
